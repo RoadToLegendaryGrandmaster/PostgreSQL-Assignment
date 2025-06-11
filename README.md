@@ -21,10 +21,11 @@ Here, student_id is primary key, and course_id is foregin key
 
 ## Course Table
 
-course_id | course_name | credit
-502 | PHY | 3.0
-632 | CHE | 3.0
-783 | BIO | 3.0
-2004 | CSE | 4.0
+| course_id | course_name | credit |
+|---------- |-------------|--------|
+| 502  | PHY | 3.0 |
+| 32   | CHE | 3.0 |
+| 783  | BIO | 3.0 |
+| 2004 | CSE | 4.0 |
 
 Here, course_id is primary key, and there is no foregin key.
