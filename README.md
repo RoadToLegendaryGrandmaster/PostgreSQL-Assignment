@@ -40,7 +40,7 @@ Example:
 If we want to store a person name, "Ali ahmad" then we can use Varchar data type for storing, in var char we can use space.
 If we want to use small character witout space we can use char to that.
 
-To store address we can use varchar
+To store address we can use varchar,
 To store symbole or short name we can use
 
 ```sql
@@ -51,3 +51,20 @@ create table product (
     prod_tag char(5)
 )
 ```
+
+# Explain the purpose of the WHERE clause in a SELECT statement.
+
+By using select statement we can select a table, and get all the data from the table. But if we want to add some conditions base retrival, then we can use where clause.
+
+Where clause accept conditions that will apply when using select statement.
+
+Example:
+
+```sql
+SELECT product_name, price FROM product
+WHERE priduct_name LIKE %laptop%;
+```
+
+This example will show only based on conditions that have laptop key word in it. But we can do many more condition using where clause.
+
+# What are the LIMIT and OFFSET clauses used for?
