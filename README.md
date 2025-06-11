@@ -12,21 +12,42 @@ Example of a table:
 
 ## Student Table
 
-|student_id | name | degree | enroll_year | course_id |
-|-----------|------|--------|-------------|-----------|
-| 1001 | abc | bsc | 2019 | 502 |
-| 1002 | asds | bsc | 2013 | 632 |
-| 1003 | ads | bsc | 2019 | 783 | 
+| student_id | name | degree | enroll_year | course_id |
+| ---------- | ---- | ------ | ----------- | --------- |
+| 1001       | abc  | bsc    | 2019        | 502       |
+| 1002       | asds | bsc    | 2013        | 632       |
+| 1003       | ads  | bsc    | 2019        | 783       |
 
 Here, student_id is primary key, and course_id is foregin key
 
 ## Course Table
 
 | course_id | course_name | credit |
-|---------- |-------------|--------|
-| 502  | PHY | 3.0 |
-| 32   | CHE | 3.0 |
-| 783  | BIO | 3.0 |
-| 2004 | CSE | 4.0 |
+| --------- | ----------- | ------ |
+| 502       | PHY         | 3.0    |
+| 32        | CHE         | 3.0    |
+| 783       | BIO         | 3.0    |
+| 2004      | CSE         | 4.0    |
 
 Here, course_id is primary key, and there is no foregin key.
+
+# What is the difference between the VARCHAR and CHAR data types?
+
+In sql varchar type can store more than one character or string. varchar is generally used for long string. But if we need just sigle characher or small character that we can use char type in sql. char is fixed length.
+
+Example:
+
+If we want to store a person name, "Ali ahmad" then we can use Varchar data type for storing, in var char we can use space.
+If we want to use small character witout space we can use char to that.
+
+To store address we can use varchar
+To store symbole or short name we can use
+
+```sql
+create table product (
+    prod_id id primary key,
+    prod_name varchar(100),
+    prod_des varchar(300),
+    prod_tag char(5)
+)
+```
