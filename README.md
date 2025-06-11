@@ -14,7 +14,7 @@ where planet = 'Earth';
 
 ### Primary key:
 
-In a database, all the row in a table are uniquely idenfified by primary key. Suppose, in a classroom there are 30 students, all students have their identity number, and we can uniquely identify by their id number. In a database table, primary key works same as identity for each row. There are some contidions for make a column a primary key: - Key should be unique - Primary key field cant be empty or null
+In a database, all the row in a table are uniquely identified by primary key. Suppose, in a classroom there are 30 students, all students have their identity number, and we can uniquely identify by their id number. In a database table, primary key works same as identity for each row. There are some contidions for make a column a primary key: - Key should be unique - Primary key field cant be empty or null
 
 ### Foreign Key:
 
