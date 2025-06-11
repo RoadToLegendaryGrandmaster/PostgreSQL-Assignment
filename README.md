@@ -1,3 +1,15 @@
+# What is PostgreSQL?
+PostgresSQL is a relational database management system. Where user can store data, modify the data, retrive the data, and can put data according to specific some order and rules. PostgresSQL uses for relation between tables. In a table all the cells are in columns and rows. Each column and row are identify by some data type and data with same type. To use this database we need some kind of special declarative way known as SQL. 
+
+Example of some SQL:
+
+```sql
+select * from universe
+where planet = 'Earth';
+```
+
+
+
 # Explain the Primary Key and Foreign Key concepts in PostgreSQL ?
 
 ### Primary key:
@@ -83,7 +95,7 @@ offset 5
 ```
 This example will show, all person accept first 5 person data, where gender is female. By using offset we can skip the beginning data.
 
-We ccan also use limit and offset togather.
+We can also use limit and offset togather.
 
 ```sql
 select * from person
