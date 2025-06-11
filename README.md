@@ -68,3 +68,30 @@ WHERE priduct_name LIKE %laptop%;
 This example will show only based on conditions that have laptop key word in it. But we can do many more condition using where clause.
 
 # What are the LIMIT and OFFSET clauses used for?
+
+```sql
+select * from person
+where gender = 'f'
+limit 10
+```
+This example will show, 10 person data where gender is female. By using limit, we can set a range of data limitation.
+
+```sql
+select * from person
+where gender = 'f'
+offset 5
+```
+This example will show, all person accept first 5 person data, where gender is female. By using offset we can skip the beginning data.
+
+We ccan also use limit and offset togather.
+
+```sql
+select * from person
+where gender = 'f'
+offset 10
+limit 20
+```
+This example will show 20 data of person, skipping 10 perfon from beginning where gender is female. so output will be from, start 11 to 32 finish
+
+
+
