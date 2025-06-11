@@ -12,10 +12,11 @@ Example of a table:
 
 ## Student Table
 
-student_id | name | degree | enroll_year | course_id
-1001 | abc | bsc | 2019 | 502
-1002 | asds | bsc | 2013 | 632
-1003 | ads | bsc | 2019 | 783
+|student_id | name | degree | enroll_year | course_id |
+|-----------|------|--------|-------------|-----------|
+| 1001 | abc | bsc | 2019 | 502 |
+| 1002 | asds | bsc | 2013 | 632 |
+| 1003 | ads | bsc | 2019 | 783 | 
 
 Here, student_id is primary key, and course_id is foregin key
 
